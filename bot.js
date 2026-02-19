@@ -2,7 +2,7 @@ const TelegramBot = require("node-telegram-bot-api");
 const axios = require("axios");
 const FormData = require("form-data");
 
-const BOT_TOKEN = "7827367865:AAFufVkVO0f5v7W5LVeqCEWLSHuiur3xaLk"; // <-- Apna token yaha dal do
+const BOT_TOKEN = "8536705149:AAFKk0RImIu1IlbhobSZLT8EChFC8yeBlgI"; // <-- Apna token yaha dal do
 const RENDER_API = "https://api-5v83.onrender.com/upload"; // <-- Tumhari Render API
 
 const botInstance = new TelegramBot(BOT_TOKEN, { polling: true });
